@@ -58,11 +58,7 @@ body {
 .botoes {
   display: block;
 }
-
-@media screen and (min-width: 768px) {
-  /* Código omitido */
-
-  .botao:last-child {
+ .botao:last-child {
     border-radius: 0 40px 0 0;
   }
 }
@@ -95,4 +91,13 @@ body {
   text-align: center;
   color: var(--verde);
   text-transform: uppercase;
+}
+.contador{
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  /* Código omitido */
+
 }
